@@ -6,14 +6,14 @@ body
 
 header
 {
-    background-color: rgb(195,195,195);
+    background-color: #c3c3c3;
     padding: 20px;
     text-align: center;
 }
 
 nav
 {
-    background-color: black;
+    background-color: #000000;
 }
 
 nav a
@@ -30,4 +30,52 @@ ul
 {
     display: flex;
     justify-content: center;
+    margin: 0px;
+}
+
+.boobafet
+{
+    background-color: #c1c8cf;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+#info
+{
+    display: flex;
+}
+
+.r2d2
+{
+    float: right;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+    text-align: justify;
+}
+
+article
+{
+    padding: 20px;
+    width: 40%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    border: rgb(64, 64, 64);
+    text-align: center;
+}
+
+.stoorm
+{
+    width: 100%;
+    /* border-radius: 15px; */
+}
+
+footer
+{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
 }
